@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-image: url("gettyimages.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 450px;
+    margin: -22px;
+    padding: 20px 0 0 0;
+}
+
+.hero h1{
+    text-align: center;
+    color: white;
+}
+
+.hero h3{
+    margin: 100px 0 0 150px !important;
+    color: white;
+    font-size: 26px;
+    font-family: "roboto";
+}
+
+.hero h6{
+    margin: 5px 0 0 150px !important;
+    color: white;
+    font-size: 13px;
+    font-family: "roboto";
+}
+
+.hero button{
+    margin: 10px 0 0 150px !important;
+    color: #000;
+    font-size: 13px;
+    background-color: #fff;
+    border: none;
+    font-weight: 700;
+    height: 35px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.hero button:hover{
+    background-color: #020202;
+    color: #fff;
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 3rem;
+}
+
+.list-items img{
+    width: 100px;
+    height: 50px;
+    margin: 70px 0 0 3rem;
+}
+
+.list-items h1{
+   font-size: 14px;
+   font-weight: 900;
+   text-align: center;
+   font-family: "roboto";
+}
+
+.list-items h5{
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    font-family: "roboto";
+ }
+
+ .best{
+    background-color: rgb(243, 243, 243);
+    height: 250px;
+ }
+
+ .best img{
+    width: 100px;
+    height: 25px;
+    margin: 20px 0 -15px 39rem;
+ }
+
+ .best h3, h5{
+    text-align: center;
+    font-family: "roboto";
+    font-size: 15px;
+ }
+
+ .made{
+    display: flex;
+    height: 400px ;
+ }
+
+ .made img{
+    width: 500px;
+    height: 550px;
+ }
+
+ .made h2, h4{
+    text-align: center;
+    margin: 20px 0 0 30px;
+ }
+
+ .made h2{
+    margin: 100px 0 0 0;
+ }
+
+ .gear{
+    display: flex;
+    height: 500px;
+    margin: 150px 0 0 0;
+ }
+
+ .gear img{
+    width: 450px;
+    height: 480px;
+ }
+
+ .gear h2, h4{
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding: 0 50px;
+    color: rgb(148, 147, 147);
+ }
+
+ .gear h2{
+    margin: 150px 0 0 0;
+ }
+
+ .banner{
+    background-image: url("WhatsApp\ .jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    padding: 60px 0 0 0;
+}
+
+.banner h1{
+    margin: 0 0 0 150px;
+    color: rgb(7, 6, 6);
+}
+.banner button{
+    margin: 10px 0 0 150px !important;
+    color: #000;
+    font-size: 13px;
+    background-color: #e2dfdf;
+    border: none;
+    font-weight: 600;
+    height: 35px;
+    width: 200px;
+    justify-content: center;
+}
+
+
+.tech h3{
+ text-align: center;
+ font-weight: 900;
+}
+
+.tech span{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 0 20rem;
+}
+
+.tech h2{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.tech .but{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.tech .but1{
+    background-color: rgb(17, 17, 17);
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    margin: 0 0 0 380px;
+}
+
+.tech .but1:hover{
+    background-color: rgb(70, 69, 69);
+}
+
+.tech .but2{
+    background-color: rgb(70, 69, 69);
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+}
+
+.tech .but2:hover{
+    background-color: rgb(3, 3, 3);
+}
